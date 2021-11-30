@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="report1" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="a9f70495-5855-4b33-a55d-b8a4c256de6f">
+	<property name="ireport.zoom" value="1.0000000000000013"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<parameter name="image" class="java.lang.String"/>
+	<parameter name="hoten" class="java.lang.String"/>
+	<parameter name="quequan" class="java.lang.String"/>
+	<parameter name="gioitinh" class="java.lang.String"/>
+	<parameter name="dantoc" class="java.lang.String"/>
+	<parameter name="ngaysinh" class="java.lang.String"/>
+	<parameter name="sodienthoai" class="java.lang.String"/>
+	<parameter name="phongban" class="java.lang.String"/>
+	<parameter name="chucvu" class="java.lang.String"/>
+	<parameter name="trinhdo" class="java.lang.String"/>
+	<parameter name="chuyennganh" class="java.lang.String"/>
+	<parameter name="chinhtri" class="java.lang.String"/>
+	<parameter name="doanthe" class="java.lang.String"/>
+	<parameter name="loainhansu" class="java.lang.String"/>
+	<parameter name="hanhopdong" class="java.lang.String"/>
+	<parameter name="logo" class="java.lang.String"/>
+	<title>
+		<band height="802" splitType="Stretch">
+			<staticText>
+				<reportElement x="198" y="44" width="167" height="29" forecolor="#3399FF" uuid="e8696f9a-be80-4500-817b-0143989ff328"/>
+				<textElement>
+					<font fontName="SansSerif" size="20" isBold="true"/>
+				</textElement>
+				<text><![CDATA[HỒ SƠ NHÂN SỰ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="214" y="773" width="141" height="17" forecolor="#3399FF" uuid="08f00fad-de6a-447c-97f1-8dd3ee59a903"/>
+				<textElement>
+					<font size="10" isBold="false"/>
+				</textElement>
+				<text><![CDATA[@Hanoi University of Industry]]></text>
+			</staticText>
+			<image>
+				<reportElement x="48" y="133" width="150" height="200" uuid="2f8b616f-46b3-46b8-be53-7e9eeaaf61e7"/>
+				<imageExpression><![CDATA[$P{image}]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="265" y="133" width="72" height="20" forecolor="#3399FF" uuid="305160f0-2695-4754-b55e-37db9cde8d7c"/>
+				<textElement verticalAlignment="Top">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Họ và tên:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="265" y="169" width="72" height="20" forecolor="#3399FF" uuid="860bbd6b-a439-450d-abab-24a21a7a4304"/>
+				<textElement verticalAlignment="Top">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Quê quán:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="265" y="204" width="69" height="20" forecolor="#3399FF" uuid="dffe10d9-0e73-4709-92b6-025bd59fdd3a"/>
+				<textElement verticalAlignment="Top">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Giới tính: ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="265" y="313" width="100" height="20" forecolor="#3399FF" uuid="74d99c40-b81d-40f0-bc62-03b0e6639ab5"/>
+				<textElement verticalAlignment="Top">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Số điện thoại:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="265" y="242" width="59" height="20" forecolor="#3399FF" uuid="2f03a9b7-7ace-4306-a0bd-9ac64958c9c7"/>
+				<textElement verticalAlignment="Top">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Dân tộc:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="265" y="278" width="72" height="20" forecolor="#3399FF" uuid="a5ea318a-ed0b-4177-bb82-00faba707a4e"/>
+				<textElement verticalAlignment="Top">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Ngày sinh:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="48" y="352" width="82" height="20" forecolor="#3399FF" uuid="4e578925-8258-4796-933a-617ddda0d125"/>
+				<textElement verticalAlignment="Top">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Phòng ban:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="265" y="352" width="69" height="20" forecolor="#3399FF" uuid="7cda6185-64b7-45c6-ada2-9e012540e442"/>
+				<textElement verticalAlignment="Top">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Chức vụ:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="48" y="390" width="66" height="20" forecolor="#3399FF" uuid="f1217882-c1cf-4b44-be5d-1ebdb709434f"/>
+				<textElement verticalAlignment="Top">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Trình độ:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="265" y="390" width="111" height="20" forecolor="#3399FF" uuid="e9f88be1-2214-48fa-a092-b431cebb295f"/>
+				<textElement verticalAlignment="Top">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Chuyên ngành:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="48" y="466" width="132" height="20" forecolor="#3399FF" uuid="4b273c1b-42d1-48d1-9d8d-eb8d28943236"/>
+				<textElement verticalAlignment="Top">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Hoạt động hính trị:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="48" y="599" width="150" height="20" forecolor="#3399FF" uuid="d9baf70f-61cd-41a9-af2d-252e0ef8489a"/>
+				<textElement verticalAlignment="Top">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Hoạt động đoàn thể:]]></text>
+			</staticText>
+			<image>
+				<reportElement x="464" y="11" width="75" height="75" uuid="db368059-7a3b-42f6-8cb1-bab953f0f2b8"/>
+				<imageExpression><![CDATA[$P{logo}]]></imageExpression>
+			</image>
+			<textField>
+				<reportElement x="347" y="133" width="100" height="20" uuid="d9a60b1e-771f-4000-8783-dba1247c5d0c"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{hoten}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="347" y="169" width="100" height="20" uuid="5ac814c0-1877-496a-9b19-4415142e9cbd"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{quequan}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="337" y="204" width="100" height="20" uuid="478ded7d-9189-441a-b3d8-e320380eac69"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{gioitinh}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="334" y="242" width="100" height="20" uuid="48a0e476-0db1-4c39-8ad5-cbf251249087"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{dantoc}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="347" y="278" width="100" height="20" uuid="f12115ce-bdd5-4798-88df-bad7b4e6b048"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{ngaysinh}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="365" y="313" width="100" height="20" uuid="1f669702-c072-41aa-b9e2-3b0f73bb1646"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{sodienthoai}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="135" y="352" width="100" height="20" uuid="eec703c9-2eb0-472b-9237-855341221a10"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{phongban}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="334" y="352" width="100" height="20" uuid="59dc7e00-d8be-460c-8d85-23e876513122"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{chucvu}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="114" y="390" width="100" height="20" uuid="d9741fdb-61b5-4730-8755-d62c4b121245"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{trinhdo}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="376" y="390" width="120" height="20" uuid="26db5117-100d-4347-8166-673f82ded410"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{chuyennganh}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="48" y="486" width="459" height="102" uuid="50ef24ec-66ac-48dd-9e0f-3ea831120113"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{chinhtri}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="48" y="619" width="459" height="115" uuid="d3e82f11-c8de-497d-a55c-254aa5a83b08"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{doanthe}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="48" y="588" width="459" height="1" uuid="4c7c0566-d1b7-4b64-bb80-d8a6a721f64a"/>
+				<graphicElement>
+					<pen lineStyle="Dashed"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="48" y="734" width="459" height="1" uuid="9873f727-35c7-485a-82b4-444a64354cee"/>
+				<graphicElement>
+					<pen lineStyle="Dashed"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="2" y="801" width="553" height="1" uuid="cedfa316-8732-46e8-82cb-e2a52b9f0586"/>
+			</line>
+			<line>
+				<reportElement x="1" y="-1" width="553" height="1" uuid="1ca7847b-c814-4183-b863-f1a91e895c83"/>
+			</line>
+			<staticText>
+				<reportElement x="48" y="427" width="97" height="20" forecolor="#3399FF" uuid="da0ca16f-0227-43ca-9dbc-39f8c7ab8e35"/>
+				<textElement verticalAlignment="Top">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Loại nhân sự:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="265" y="427" width="111" height="20" forecolor="#3399FF" uuid="f416b752-e816-46f9-b715-bad772a09161"/>
+				<textElement verticalAlignment="Top">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Hạn hợp đồng:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="145" y="427" width="100" height="20" uuid="6e6596b1-82f3-4cf4-9723-99f9b4958510"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{loainhansu}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="376" y="427" width="120" height="20" uuid="f7324efc-9686-48b3-8ce4-a4bdcb32bcad"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{hanhopdong}]]></textFieldExpression>
+			</textField>
+		</band>
+	</title>
+</jasperReport>

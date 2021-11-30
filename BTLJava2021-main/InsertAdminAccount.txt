@@ -1,0 +1,2 @@
+INSERT INTO TaiKhoan(TenTaiKhoan,MatKhau,Ten,Anh)
+SELECT 'iroha', '123', 'Hana Iroha', BulkColumn from openrowset (bulk 'D:\PTS\Desert 1.jpg',Single_Clob) as Picture
